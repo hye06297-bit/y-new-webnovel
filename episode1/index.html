@@ -3,88 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Episode 1 – 아주 작은 시작</title>
-    
-    <link rel="stylesheet" href="../style.css"> 
-    <link rel="stylesheet" href="episode-content.css">
+    <title>웹소설 인덱스</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="common-header"></div>
-<script src="../episodes-common/load-header.js" defer></script>
+    <script src="load-header.js" defer></script>
 
-<main class="container"></main>    
-<div class="episode-wrapper">
-
-    <div class="chapter-title">
-        <h1>🌱 아주 작은 시작</h1>
-        <h2>Episode 1</h2>
-        <div class="separator"></div>
-    </div>
-
-    <h3 id="scene-1">🌅 새벽 공기</h3>
-    <div class="scene-media"><video class="scene-video" src="01.mp4" controls title="새벽 공기"></video></div>
-    <div class="caption">이주는 새벽 바람 속에서 잠시 생각을 정리한다.</div>
-    <p>"하루를 잘 시작해보자."</p>
-
-    <h3 id="scene-2">☁️ 떠다니는 고민 구름</h3>
-    <div class="scene-media"><video class="scene-video" src="02.mp4" controls title="떠다니는 고민 구름"></video></div>
-    <div class="caption">작은 고민 구름이 이주의 머리 위를 맴돈다.</div>
-    <p>“할 일은 많고, 마음은 또 분주하네…”</p>
-
-    <h3 id="scene-3">📨 뜻밖의 메시지</h3>
-    <div class="scene-media"><video class="scene-video" src="03.mp4" controls title="뜻밖의 메시지"></video></div>
-    <div class="caption">‘청년 크리에이티브 챌린지’ 공모 소식이 도착한다.</div>
-    <p>이주는 고개를 갸웃하며 화면을 바라본다.</p>
-
-    <h3 id="scene-4">✨ 작은 반짝임</h3>
-    <div class="scene-media"><video class="scene-video" src="04.mp4" controls title="작은 반짝임"></video></div>
-    <div class="caption">이주의 발끝에서 작은 빛이 반짝이며 떠오른다.</div>
-    <p>"…나도 이런 거 해볼 수 있을까?"</p>
-
-    <div class="separator"></div>
-
-    <div class="ai-guide">
-        <h2>💡 Episode 1 실습: AI로 이야기 분석/확장하기</h2>
-
-        <h3>실습 1: 장면 요약 및 감정 분석</h3>
-        <p><strong>상황</strong>: 위 장면들을 AI에게 분석하게 하여 요약과 감정을 파악하고 싶을 때</p>
-        <p><strong>프롬프트</strong> (ChatGPT/Claude에 복사-붙여넣기):</p>
-        <div class="prompt-code">
-            당신은 스토리텔링 전문가입니다.
-            <br>다음 Episode 1 장면들을 분석하고 요약해주세요.
-            <br>각 장면마다:
-            <br>- 핵심 사건 1-2문장
-            <br>- 주인공 감정 1-2문장
-            <br>- 장면에서 느껴지는 분위기 요약
-            <br>
-            <br>[장면]
-            <br>1. 🌅 새벽 공기: "하루를 잘 시작해보자."
-            <br>2. ☁️ 떠다니는 고민 구름: “할 일은 많고, 마음은 또 분주하네…”
-            <br>3. 📨 뜻밖의 메시지: ‘청년 크리에이티브 챌린지’ 공모 소식 도착
-            <br>4. ✨ 작은 반짝임: "…나도 이런 거 해볼 수 있을까?"
-        </div>
-        <p><strong>기대 효과</strong>: 각 장면 감정과 핵심 사건을 빠르게 이해하고, 다음 장면 확장 아이디어를 얻음</p>
-
-        <div class="separator" style="margin: 20px 0;"></div>
-
-        <h3>실습 2: 장면 연결 및 스토리 확장</h3>
-        <p><strong>상황</strong>: AI에게 장면을 이어주는 스토리 확장 아이디어를 얻고 싶을 때</p>
-        <p><strong>프롬프트</strong>:</p>
-        <div class="prompt-code">
-            당신은 창작 스토리 전문가입니다.
-            <br>Episode 1 장면을 기반으로, 자연스럽게 이어지는 다음 장면 2-3개를 제안해주세요.
-            <br>각 장면마다:
-            <br>- 장면 제목
-            <br>- 장면 설명 2-3문장
-            <br>- 주인공 감정 1-2문장
-        </div>
-        <p><strong>기대 효과</strong>: 작가가 스토리 확장할 때 아이디어를 빠르게 얻음</p>
-    </div>
-
-    <div class="separator"></div>
-    <h2 style="color: #c00;">다음 화 예고: Episode 2 "조금 더 큰 도전"</h2>
-    </div>
-    <p style="text-align: center; font-size: 0.9em; color: #777;">*매주 화요일, 금요일 연재 | 구독하고 알림 받기 | 💬 댓글로 실습 후기 남겨주세요!*</p>
- </main>
+    <main class="container">
+        <h1>📚 웹소설 목차</h1>
+        <ul class="episode-list">
+            <li><a href="episode1.html">Episode 1 – 아주 작은 시작</a></li>
+            <li><a href="episode2.html">Episode 2 – 다음 이야기</a></li>
+            <!-- 나머지 에피소드 추가 -->
+        </ul>
+    </main>
 </body>
 </html>
