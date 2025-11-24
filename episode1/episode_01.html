@@ -1,83 +1,53 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Episode 1 – 아주 작은 시작</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="episode-content.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Episode 1 – 아주 작은 시작</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="common-header"></div>
-    <script src="load-header.js" defer></script>
+<header>
+    <h1>Episode 1 – 아주 작은 시작</h1>
+    <nav><a href="index.html">🏠 목록으로 돌아가기</a></nav>
+</header>
 
-    <main class="container">
-        <div class="episode-wrapper">
-            <div class="chapter-title">
-                <h1>📖 Episode 1 – 아주 작은 시작</h1>
-                <div class="separator"></div>
-            </div>
+<main>
+<div class="episode-content">
 
-            <h3 id="scene-1">🌅 새벽 공기</h3>
-            <div class="scene-media"><video class="scene-video" src="01.mp4" controls></video></div>
-            <div class="caption">이주는 새벽 바람 속에서 잠시 생각을 정리한다.</div>
-            <p>"하루를 잘 시작해보자."</p>
+<h3 id="scene-1">🌅 새벽 공기</h3>
+<div class="scene-media">
+    <video class="scene-video" src="01.mp4" controls></video>
+</div>
+<div class="caption">이주는 새벽 바람 속에서 잠시 생각을 정리한다.</div>
+<p>"하루를 잘 시작해보자."</p>
 
-            <h3 id="scene-2">☁️ 떠다니는 고민 구름</h3>
-            <div class="scene-media"><video class="scene-video" src="02.mp4" controls></video></div>
-            <div class="caption">작은 고민 구름이 이주의 머리 위를 맴돈다.</div>
-            <p>“할 일은 많고, 마음은 또 분주하네…”</p>
+<h3 id="scene-2">☁️ 떠다니는 고민 구름</h3>
+<div class="scene-media">
+    <video class="scene-video" src="02.mp4" controls></video>
+</div>
+<div class="caption">작은 고민 구름이 이주의 머리 위를 맴돈다.</div>
+<p>“할 일은 많고, 마음은 또 분주하네…”</p>
 
-            <h3 id="scene-3">📨 뜻밖의 메시지</h3>
-            <div class="scene-media"><video class="scene-video" src="03.mp4" controls></video></div>
-            <div class="caption">‘청년 크리에이티브 챌린지’ 공모 소식이 도착한다.</div>
-            <p>이주는 고개를 갸웃하며 화면을 바라본다.</p>
+<h3 id="scene-3">📨 뜻밖의 메시지</h3>
+<div class="scene-media">
+    <video class="scene-video" src="03.mp4" controls></video>
+</div>
+<div class="caption">‘청년 크리에이티브 챌린지’ 공모 소식이 도착한다.</div>
+<p>이주는 고개를 갸웃하며 화면을 바라본다.</p>
 
-            <h3 id="scene-4">✨ 작은 반짝임</h3>
-            <div class="scene-media"><video class="scene-video" src="04.mp4" controls></video></div>
-            <div class="caption">이주의 발끝에서 작은 빛이 반짝이며 떠오른다.</div>
-            <p>"…나도 이런 거 해볼 수 있을까?"</p>
+<h3 id="scene-4">✨ 작은 반짝임</h3>
+<div class="scene-media">
+    <video class="scene-video" src="04.mp4" controls></video>
+</div>
+<div class="caption">이주의 발끝에서 작은 빛이 반짝이며 떠오른다.</div>
+<p>"…나도 이런 거 해볼 수 있을까?"</p>
 
-            <div class="separator"></div>
+</div>
+</main>
 
-            <!-- 💡 프롬프트/실습 섹션 -->
-            <div class="ai-guide">
-                <h2>💡 Episode 1 실습: 창작 아이디어 확장하기</h2>
-
-                <h3>실습 1: 짧은 장면 묘사 연습</h3>
-                <p><strong>상황</strong>: 이주의 하루 시작 장면을 더 풍부하게 묘사하고 싶다면?</p>
-                <p><strong>프롬프트</strong> (ChatGPT/Claude에 복사-붙여넣기):</p>
-                <div class="prompt-code">
-                    당신은 창작 작가입니다.
-                    <br>이주는 새벽 공기 속에서 하루를 시작합니다.
-                    <br>다음 조건으로 장면을 3문장 내외로 묘사해주세요:
-                    <br>- 시각적 이미지 포함
-                    <br>- 이주의 감정 표현
-                    <br>- 간결하고 읽기 쉽게
-                </div>
-                <p><strong>기대 효과</strong>: 독자가 장면을 더 생생하게 느끼도록</p>
-
-                <div class="separator" style="margin: 20px 0;"></div>
-
-                <h3>실습 2: 작은 고민 구름 표현 연습</h3>
-                <p><strong>상황</strong>: 이주의 머리 속 고민을 독자에게 쉽게 전달하려면?</p>
-                <p><strong>프롬프트</strong>:</p>
-                <div class="prompt-code">
-                    당신은 창작 작가입니다.
-                    <br>이주의 마음 속 작은 고민을 비유적 이미지로 표현해주세요.
-                    <br>조건:
-                    <br>- 한 문단으로
-                    <br>- 구름, 바람 등 자연적 요소 활용
-                    <br>- 읽기 쉽고 감정이 느껴지도록
-                </div>
-                <p><strong>기대 효과</strong>:  독자가 캐릭터 감정을 공감하게 함</p>
-            </div>
-
-            <div class="separator"></div>
-            <p style="text-align: center;">
-                <a href="index.html">⬅️ 목차로 돌아가기</a>
-            </p>
-        </div>
-    </main>
+<footer>
+    <p>💬 댓글로 감상 남겨주세요!</p>
+</footer>
 </body>
 </html>
